@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "npm run lint:scss && npm run lint:js",
-    "lint:scss": "stylelint 'app/**/*.scss' --syntax scss --fix ; exit 0",
+    "lint:scss": "stylelint app/**/*.scss --syntax scss --fix ; exit 0",
     "lint:js": "eslint . --ext .tsx",
     "test:unit": "jest --passWithNoTests",
     "test:unit:update": "jest --passWithNoTests --updateSnapshot",
