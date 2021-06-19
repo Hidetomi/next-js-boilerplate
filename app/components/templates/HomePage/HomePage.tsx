@@ -1,6 +1,6 @@
 import styles from './HomePage.module.scss';
 
-const HomePage = () => (
+const HomePage = (): JSX.Element => (
   <div className={styles.content}>
     <span className={styles.author}>
       Made by{' '}

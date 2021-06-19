@@ -1,7 +1,7 @@
 import Icon, { Icons } from '@element/Icon/Icon';
 import styles from './Header.module.scss';
 
-const Header = () => (
+const Header = (): JSX.Element => (
   <header className={styles.header}>
     <span className={styles.socials} data-cy={'header-socials'}>
       <a

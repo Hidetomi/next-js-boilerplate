@@ -28,7 +28,7 @@ type Props = {
   alt?: string;
 };
 
-const Icon = ({ icon, alt }: Props) => (
+const Icon = ({ icon, alt }: Props): JSX.Element => (
   <svg
     width={20}
     height={20}
